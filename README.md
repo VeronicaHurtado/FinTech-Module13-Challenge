@@ -29,3 +29,12 @@ This tool utilises the following technologies:
 ## Disclaimer
 > Please be aware this is an Academic Case Study. The conclusions from this work should not be considered as financial 
 > advice.
+
+---
+## Report
+
+### Model 1 - performance
+
+*HDF5 file*: [AlphabetSoup.h5](./Resources/AlphabetSoup.h5)
+> 268/268 - 1s - loss: 0.5568 - accuracy: 0.7301 - 725ms/epoch - 3ms/step
+> Loss: 0.5567694902420044, Accuracy: 0.7301457524299622
