@@ -23,9 +23,8 @@ performance of the Model.
 ## Technical Environment
 This tool utilises the following technologies:
 - **Pandas** [Documentation](https://pandas.pydata.org/docs/reference/frame.html)
-- **NumPy** [Documentation](https://numpy.org/)
 - **Scikit learn** [Documentation](https://scikit-learn.org/stable/)
-- **Imbalanced learn** [Documentation](https://imbalanced-learn.org/stable/)
+- **Tensorflow** [Documentation](https://www.tensorflow.org/)
 
 ## Disclaimer
 > Please be aware this is an Academic Case Study. The conclusions from this work should not be considered as financial 
