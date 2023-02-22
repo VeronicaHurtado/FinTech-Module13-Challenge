@@ -33,8 +33,33 @@ This tool utilises the following technologies:
 ---
 ## Report
 
-### Model 1 - performance
+### Model 1 - Performance
+
+![Model 1](Images/Model1-neural-network.png)
 
 *HDF5 file*: [AlphabetSoup.h5](./Resources/AlphabetSoup.h5)
-> 268/268 - 1s - loss: 0.5568 - accuracy: 0.7301 - 725ms/epoch - 3ms/step
-> Loss: 0.5567694902420044, Accuracy: 0.7301457524299622
+> 268/268 - 1s - loss: 0.5559 - accuracy: 0.7298 - 756ms/epoch - 3ms/step
+> Loss: 0.5559454560279846, Accuracy: 0.7297959327697754
+
+### Alt Model 1 - Performance
+
+![Alternative Model 1](Images/ModelA1-neural-network.png)
+
+Techniques: 25% less nodes in the first layer, second layer with dropout of 2%, extra layer with regularization 
+
+
+
+### Alt Model 2 - Performance
+
+![Alternative Model 2](Images/ModelA2-neural-network.png)
+
+Techniques: Different activation function to output layer (softmax) and second hidden layer with double number of nodes
+
+
+
+### Alt Model 3 - Performance
+
+![Alternative Model 3](Images/ModelA3-neural-network.png)
+
+Techniques: 1 less layer, 50% more nodes for the first hidden layer, double number of epochs (100)
+
